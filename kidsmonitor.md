@@ -16,7 +16,7 @@ Kids Monitor ("we", "our", "the app") is a family safety application with parent
 - Location data (live location, last location, movement history, safe area status).
 - Safety alerts and events (SOS alerts, geofence alerts, permission health, app-block events).
 - On paired child devices: the list of installed apps and app usage or foreground-app events used for app blocking.
-- Voice messages stored in the app and audio from in-app calls when that feature is enabled.
+- Voice messages, only if one is sent through a linked device.
 - Optional profile image selected by the user.
 - Advertising identifier and app interaction data used to show ads on the free tier.
 - Purchase and subscription status managed through Google Play and our subscription provider.
@@ -29,8 +29,7 @@ Depending on feature use, the app may request:
 - Location permissions (foreground/background) for live tracking and safety alerts.
 - Notifications permission for alerts and status updates.
 - Accessibility and usage access permissions for app-block enforcement features (Android).
-- Camera permission for QR code pairing and an optional profile photo.
-- Microphone permission for in-app audio calling when that feature is enabled.
+- Camera permission, used only to scan a pairing QR code.
 - Battery optimization exemption so monitoring keeps working when the device is idle.
 
 Permissions are used for safety features and can be changed in device settings, but disabling some permissions may limit app functionality.
@@ -54,7 +53,6 @@ Data may be processed by service providers required for app operation, such as:
 - Google Maps for map display and location search.
 - Google AdMob for advertising on the free tier.
 - Google Play Billing and RevenueCat for subscriptions and purchases.
-- In-app calling provider (Agora) for audio call functionality.
 
 ## Advertising
 
