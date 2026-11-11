@@ -16,7 +16,7 @@ Kids Monitor ("we", "our", "the app") is a family safety application with parent
 - Location data (live location, last location, movement history, safe area status).
 - Safety alerts and events (SOS alerts, geofence alerts, permission health, app-block events).
 - On paired child devices: the list of installed apps and app usage or foreground-app events used for app blocking.
-- Audio recordings created through the app, such as voice messages and consent-gated ambient audio ("Sound Around") requested by a parent.
+- Voice messages stored in the app and audio from in-app calls when that feature is enabled.
 - Optional profile image selected by the user.
 - Advertising identifier and app interaction data used to show ads on the free tier.
 - Purchase and subscription status managed through Google Play and our subscription provider.
@@ -30,7 +30,7 @@ Depending on feature use, the app may request:
 - Notifications permission for alerts and status updates.
 - Accessibility and usage access permissions for app-block enforcement features (Android).
 - Camera permission for QR code pairing and an optional profile photo.
-- Microphone permission for voice messages, consent-gated ambient audio, and audio calling (if enabled).
+- Microphone permission for in-app audio calling when that feature is enabled.
 - Battery optimization exemption so monitoring keeps working when the device is idle.
 
 Permissions are used for safety features and can be changed in device settings, but disabling some permissions may limit app functionality.
@@ -59,6 +59,10 @@ Data may be processed by service providers required for app operation, such as:
 ## Advertising
 
 The free tier displays banner ads through Google AdMob. AdMob may collect the Android advertising ID and limited device and app interaction data to serve and measure ads. Paid tiers do not show ads. You can reset or delete your advertising ID in Android Settings > Privacy > Ads. We do not sell personal data.
+
+## Sound Around
+
+The Sound Around control plays an alert sound on the paired child device to help a parent locate it. It does not record, listen to, or transmit ambient audio.
 
 ## Data Retention
 

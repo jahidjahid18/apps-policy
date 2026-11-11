@@ -104,7 +104,7 @@
           <li>Location data (live location, last location, movement history, safe area status).</li>
           <li>Safety alerts and events (SOS alerts, geofence alerts, permission health, app-block events).</li>
           <li>On paired child devices: the list of installed apps and app usage or foreground-app events used for app blocking.</li>
-          <li>Audio recordings created through the app, such as voice messages and consent-gated ambient audio ("Sound Around") requested by a parent.</li>
+          <li>Voice messages stored in the app and audio from in-app calls when that feature is enabled.</li>
           <li>Optional profile image selected by the user.</li>
           <li>Advertising identifier and app interaction data used to show ads on the free tier.</li>
           <li>Purchase and subscription status managed through Google Play and our subscription provider.</li>
@@ -120,7 +120,7 @@
           <li>Notifications permission for alerts and status updates.</li>
           <li>Accessibility and usage access permissions for app-block enforcement features (Android).</li>
           <li>Camera permission for QR code pairing and an optional profile photo.</li>
-          <li>Microphone permission for voice messages, consent-gated ambient audio, and audio calling (if enabled).</li>
+          <li>Microphone permission for in-app audio calling when that feature is enabled.</li>
           <li>Battery optimization exemption so monitoring keeps working when the device is idle.</li>
         </ul>
         <p>
@@ -160,6 +160,15 @@
           interaction data to serve and measure ads. Paid tiers do not show
           ads. You can reset or delete your advertising ID in Android Settings
           &gt; Privacy &gt; Ads. We do not sell personal data.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Sound Around</h2>
+        <p>
+          The Sound Around control plays an alert sound on the paired child
+          device to help a parent locate it. It does not record, listen to, or
+          transmit ambient audio.
         </p>
       </section>
 
