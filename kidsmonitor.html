@@ -78,7 +78,7 @@
     <main class="wrap">
       <section class="hero">
         <h1>Kids Monitor Privacy Policy</h1>
-        <div class="updated">Last updated: April 5, 2026</div>
+        <div class="updated">Last updated: November 11, 2026</div>
       </section>
 
       <section class="card">
@@ -103,7 +103,11 @@
           <li>Device and pairing data needed to securely link parent and child devices.</li>
           <li>Location data (live location, last location, movement history, safe area status).</li>
           <li>Safety alerts and events (SOS alerts, geofence alerts, permission health, app-block events).</li>
+          <li>On paired child devices: the list of installed apps and app usage or foreground-app events used for app blocking.</li>
+          <li>Audio recordings created through the app, such as voice messages and consent-gated ambient audio ("Sound Around") requested by a parent.</li>
           <li>Optional profile image selected by the user.</li>
+          <li>Advertising identifier and app interaction data used to show ads on the free tier.</li>
+          <li>Purchase and subscription status managed through Google Play and our subscription provider.</li>
           <li>Technical logs needed to operate, secure, and troubleshoot the service.</li>
         </ul>
       </section>
@@ -115,8 +119,14 @@
           <li>Location permissions (foreground/background) for live tracking and safety alerts.</li>
           <li>Notifications permission for alerts and status updates.</li>
           <li>Accessibility and usage access permissions for app-block enforcement features (Android).</li>
-          <li>Microphone permission for in-app audio calling (if enabled).</li>
+          <li>Camera permission for QR code pairing and an optional profile photo.</li>
+          <li>Microphone permission for voice messages, consent-gated ambient audio, and audio calling (if enabled).</li>
+          <li>Battery optimization exemption so monitoring keeps working when the device is idle.</li>
         </ul>
+        <p>
+          On a child device, the app displays an ongoing notification while
+          protection is active and lets the child stop monitoring at any time.
+        </p>
       </section>
 
       <section class="card">
@@ -135,17 +145,29 @@
         <p>Data may be processed by service providers required for app operation, such as:</p>
         <ul>
           <li>Firebase services (authentication, database, storage, messaging, crash reporting).</li>
-          <li>Mapping/location providers used by the app.</li>
+          <li>Google Maps for map display and location search.</li>
+          <li>Google AdMob for advertising on the free tier.</li>
+          <li>Google Play Billing and RevenueCat for subscriptions and purchases.</li>
           <li>In-app calling provider (Agora) for audio call functionality.</li>
-          <li>Payment/subscription platforms where applicable.</li>
         </ul>
+      </section>
+
+      <section class="card">
+        <h2>Advertising</h2>
+        <p>
+          The free tier displays banner ads through Google AdMob. AdMob may
+          collect the Android advertising ID and limited device and app
+          interaction data to serve and measure ads. Paid tiers do not show
+          ads. You can reset or delete your advertising ID in Android Settings
+          &gt; Privacy &gt; Ads. We do not sell personal data.
+        </p>
       </section>
 
       <section class="card">
         <h2>Data Retention</h2>
         <ul>
           <li>Data is retained only as needed to provide the service, support users, and meet legal obligations.</li>
-          <li>Parents may request deletion of account-linked data through support contact below.</li>
+          <li>Parents can delete their account and account-linked data in the app or by using the <a href="kidsmonitor-delete.html">account deletion page</a>.</li>
         </ul>
       </section>
 
@@ -162,6 +184,8 @@
         <ul>
           <li>Kids Monitor is designed for family safety use by parents/guardians.</li>
           <li>Parents are responsible for lawful use and proper consent before monitoring a child device.</li>
+          <li>The app is not directed to children under 13. Accounts are created and controlled by a parent or legal guardian.</li>
+          <li>A child device is paired by a parent, shows an ongoing notification, and can stop monitoring at any time.</li>
         </ul>
       </section>
 
@@ -170,7 +194,7 @@
         <ul>
           <li>Parents can manage linked child devices, safe areas, and alerts.</li>
           <li>Users can revoke permissions from system settings.</li>
-          <li>Users may contact support for account and data requests.</li>
+          <li>Users can permanently delete their account from Settings or the <a href="kidsmonitor-delete.html">account deletion page</a>.</li>
         </ul>
       </section>
 
